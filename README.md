@@ -1,4 +1,4 @@
-# idrive7-app-releases
+# bmw-idrive7-releases
 
 Public releases of the packages for the BMW iDrive 7 (MGU) **mgu Store**: Android Auto's map on the instrument
 cluster and the HUD, and a few related tools. This repository holds **no source code**, only the published
@@ -20,7 +20,7 @@ The release named `catalog` holds `catalog.json` (the list the Store reads) and 
 
 ## Add it to the car's Store
 
-In the car's Store: Settings, Sources, add a GitHub source `mlurker/idrive7-app-releases`, channel **Releases**.
+In the car's Store: Settings, Sources, add a GitHub source `mlurker/bmw-idrive7-releases`, channel **Releases**.
 Install in this order: mgu-deploy (the Store's own), cluster-render, waze-on-cluster, aa-on-cluster, then the
 companion app. hud-signals needs only cluster-render. Then restart the head unit.
 
